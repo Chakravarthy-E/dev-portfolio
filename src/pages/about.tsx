@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="min-h-screen flex items-start justify-center flex-col w-[500px] font-dosis space-y-7">
+    <div className="min-h-screen flex items-start justify-center flex-col w-[600px] font-dosis space-y-7">
       <h1 className="text-3xl font-semibold">About Me</h1>
       <div className="space-y-5 font-semibold">
         <p>

@@ -4,7 +4,7 @@ import React from "react";
 
 function Landing() {
   return (
-    <section className="min-h-screen flex items-start justify-center flex-col w-[500px] space-y-9 font-dosis">
+    <section className="min-h-screen flex items-start justify-center flex-col w-[600px] space-y-9 font-dosis">
       <div className="text-start">
         <p className="font-semibold font-dosis">Software Developer</p>
         <h1 className="text-5xl font-semibold font-dosis">
@@ -17,7 +17,7 @@ function Landing() {
         development using JavaScript frameworks. I create and contribute to
         amazing web applications making the internet a better place.
       </p>
-      <div className="flex items-center justify-between w-[500px]">
+      <div className="flex items-center justify-between w-[600px]">
         <Button className="bg-black hover:bg-slate-700 text-xs">
           Download CV
           <span className="ml-2">
