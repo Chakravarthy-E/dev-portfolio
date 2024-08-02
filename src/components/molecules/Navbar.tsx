@@ -23,8 +23,9 @@ function NavItem({ children, href, isActive }: Props) {
 
 function Navbar() {
   return (
-    <div className="flex font-dosis items-center space-x-3 text-sm font-medium leading-none lg:space-x-6">
+    <div className="flex font-dosis items-center space-x-4 text-sm font-medium leading-none lg:space-x-4">
       <NavItem href="/about">About</NavItem>
+      <NavItem href="/experience">Experience</NavItem>
       <NavItem href="/projects">Projects</NavItem>
       <NavItem href="/skills">Skills</NavItem>
       <NavItem href="/blogs">Blogs</NavItem>
