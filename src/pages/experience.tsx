@@ -19,7 +19,7 @@ function Experience() {
       <div className="border-l-4 space-y-2 px-4">
         <p className="flex items-center justify-between w-[600px]">
           <span className="font-semibold">Gamersback Private Limited</span>
-          <span className="text-xs font-semibold">Nov 2024 - Mar 2024</span>
+          <span className="text-xs font-semibold">Nov 2023 - Mar 2024</span>
         </p>
         <p className="italic font-semibold text-xs">
           Intern, React.js Developer

@@ -9,7 +9,7 @@ import Contact from "./contact";
 
 function page() {
   return (
-    <main className="mx-auto flex items-center justify-center flex-col ">
+    <main className="mx-auto  ">
       <Landing />
       <About />
       <Experience />
