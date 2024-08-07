@@ -13,7 +13,7 @@ function NavItem({ children, href, isActive }: Props) {
   return (
     <Link href={href} className={clsx("group", FOCUS_VISIBLE_OUTLINE)}>
       <div className="sm:flex sm:items-center sm:space-x-2">
-        <div className="transition-colors group-hover:text-rose-50">
+        <div className="transition-colors group-hover:text-blue-500">
           {children}
         </div>
       </div>

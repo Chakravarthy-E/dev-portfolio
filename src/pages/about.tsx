@@ -2,28 +2,29 @@ import React from "react";
 
 function About() {
   return (
-    <div className="min-h-screen flex items-start justify-center flex-col w-[600px] font-dosis space-y-7">
-      <h1 className="text-3xl font-semibold">About Me</h1>
+    <div className="flex items-start justify-center flex-col  w-[600px] font-dosis space-y-7 pb-10">
+      <h1 className="text-3xl font-semibold">About</h1>
       <div className="space-y-5 font-semibold">
         <p>
-          Hi, I’m Chakravarthy, a Full-Stack Developer based in Bangalore with a
-          strong foundation in both business and technology. I hold an M.B.A
+          Hi, I&apos;m Chakravarthy, a Full-Stack Developer based in Bangalore.
+          With a solid background in business and technology, I hold an M.B.A
           from Vikrama Simhapuri University and a B.Com from Mangalakara Degree
-          College, which complements my technical expertise gained through a
-          full stack development course at 10x Academy.
+          College. My journey into the tech world was further solidified through
+          a comprehensive Full Stack Development course at 10x Academy.
         </p>
         <p>
-          Currently, I work as a freelance frontend developer at Resencee
-          Private Limited, where I focus on creating dynamic, user-friendly web
-          applications. My tech stack includes React.js, Next.js, TypeScript,
-          and Tailwind CSS, and I’m experienced in building responsive websites
-          for various clients.
+          As a freelance frontend developer at Resencee Private Limited, I
+          specialize in crafting dynamic, user-friendly web applications. My
+          tech stack includes React.js, Next.js, TypeScript, and Tailwind CSS,
+          allowing me to build responsive and visually appealing websites for a
+          diverse range of clients.
         </p>
         <p>
-          I’m always eager to tackle new challenges and collaborate on exciting
-          projects. If you’re interested in working together or have any
-          questions, feel free to reach out. I’m excited to connect with others
-          in the tech community and explore new opportunities!
+          I thrive on new challenges and am always looking to collaborate on
+          innovative projects. If you&apos;re interested in working together or
+          have any questions, don&apos;t hesitate to reach out. I&apos;m eager
+          to connect with fellow tech enthusiasts and explore exciting new
+          opportunities!
         </p>
       </div>
     </div>
