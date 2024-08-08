@@ -6,7 +6,10 @@ import { LINKS } from "@/lib/constants";
 
 function Landing() {
   return (
-    <motion.section className="flex w-[600px] items-center justify-center flex-col font-dosis">
+    <motion.section
+      id="landing"
+      className="flex w-[600px] items-center justify-center flex-col font-dosis"
+    >
       <div className="text-start space-y-6  px-4 pt-10 pb-10 h-2/3">
         <h1 className="text-5xl font-semibold font-dosis">
           Hello I&apos;m <br />

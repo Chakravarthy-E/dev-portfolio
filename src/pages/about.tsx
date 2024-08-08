@@ -2,7 +2,10 @@ import React from "react";
 
 function About() {
   return (
-    <div className="flex items-start justify-center flex-col  w-[600px] font-dosis space-y-7 pb-10">
+    <div
+      id="about"
+      className="flex items-start justify-center flex-col  w-[600px] font-dosis space-y-7 pb-10"
+    >
       <h1 className="text-3xl font-semibold">About</h1>
       <div className="space-y-5 font-semibold">
         <p>

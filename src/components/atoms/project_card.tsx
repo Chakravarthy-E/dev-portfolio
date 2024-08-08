@@ -62,7 +62,7 @@ function Project_card({
           {techSkills?.split(",").map((item) => (
             <span
               key={item}
-              className="text-xs bg-gray-100 px-4 py-1  rounded-md"
+              className="text-xs bg-gray-100 px-4 py-1  rounded-md dark:text-black"
             >
               {item}
             </span>

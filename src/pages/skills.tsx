@@ -15,7 +15,10 @@ import { SiPostman } from "react-icons/si";
 
 function Skills() {
   return (
-    <div className=" flex items-start justify-center flex-col w-[600px] font-dosis space-y-7 pb-20">
+    <div
+      id="skills"
+      className=" flex items-start justify-center flex-col w-[600px] font-dosis space-y-7 pb-20"
+    >
       <h1 className="text-3xl font-semibold">My Skills</h1>
       <div className="border-l-4 space-y-2 px-4 w-[600px]">
         <p className="font-semibold">Web Technologies</p>

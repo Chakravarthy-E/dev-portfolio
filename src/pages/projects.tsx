@@ -6,7 +6,10 @@ import { LINKS } from "@/lib/constants";
 
 function Projects() {
   return (
-    <div className=" flex items-start justify-center flex-col pb10 w-[600px] font-dosis  space-y-3">
+    <div
+      id="projects"
+      className=" flex items-start justify-center flex-col pb10 w-[600px] font-dosis  space-y-3"
+    >
       <h1 className="text-3xl font-semibold">Check out my work</h1>
       <p>
         I’ve worked on a variety of projects, from simple websites to complex

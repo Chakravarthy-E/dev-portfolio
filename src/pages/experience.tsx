@@ -3,7 +3,10 @@ import React from "react";
 
 function Experience() {
   return (
-    <div className=" flex items-start justify-center flex-col w-[600px] font-dosis space-y-7 pb-10">
+    <div
+      id="experience"
+      className=" flex items-start justify-center flex-col w-[600px] font-dosis space-y-7 pb-10"
+    >
       <div className="flex items-center justify-between w-full">
         <h1 className="text-3xl font-semibold">Experience</h1>
         <p className="border px-5 py-2 text-xs">
