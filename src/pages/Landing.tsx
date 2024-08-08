@@ -8,7 +8,7 @@ function Landing() {
   return (
     <motion.section
       id="landing"
-      className="flex w-[600px] items-center justify-center flex-col font-dosis"
+      className="flex w-[600px] items-center justify-center flex-col font-dosis min-h-screen"
     >
       <div className="text-start space-y-6  px-4 pt-10 pb-10 h-2/3">
         <h1 className="text-5xl font-semibold font-dosis">
@@ -34,7 +34,7 @@ function Landing() {
             <motion.span
               whileHover={{ scale: 1.5 }}
               whileTap={{ scale: 0.8 }}
-              className="p-2 rounded-full cursor-pointer hover:text-black"
+              className="p-2 rounded-full cursor-pointer dark:hover:text-yellow-500 hover:text-black"
             >
               <a href={LINKS.GITHUB}>
                 <Github size={20} />

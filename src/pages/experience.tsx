@@ -5,10 +5,10 @@ function Experience() {
   return (
     <div
       id="experience"
-      className=" flex items-start justify-center flex-col w-[600px] font-dosis space-y-7 pb-10"
+      className=" flex items-start justify-center flex-col w-[600px] font-dosis space-y-7 pb-10 min-h-screen"
     >
       <div className="flex items-center justify-between w-full">
-        <h1 className="text-3xl font-semibold">Experience</h1>
+        <h1 className="text-3xl font-semibold text-blue-600">Experience</h1>
         <p className="border px-5 py-2 text-xs">
           <a href={LINKS.RESUME}>Download CV</a>
         </p>

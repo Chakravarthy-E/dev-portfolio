@@ -8,7 +8,7 @@ function Blogs() {
       id="blogs"
       className=" flex items-start justify-center flex-col w-[600px] font-dosis space-y-7 py-10"
     >
-      <h1 className="text-3xl font-semibold">My Blogs</h1>
+      <h1 className="text-3xl font-semibold text-blue-600">My Blogs</h1>
       <div className="flex flex-col space-y-5">
         <Blog_card
           title="Mastering JavaScript Array Methods"

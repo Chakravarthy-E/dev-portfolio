@@ -30,8 +30,9 @@ function Project_card({
   date,
 }: Props) {
   return (
-    <Card className="w-[600px]">
+    <Card className="w-[590px] ">
       <CardHeader>
+        <CardTitle className="mb-3 underline">{title}</CardTitle>
         <Image
           src={imageSrc}
           alt={title}
@@ -41,7 +42,6 @@ function Project_card({
         />
       </CardHeader>
       <CardContent className="space-y-3">
-        <p className="text-xl font-semibold">{title}</p>
         <div className="flex  items-center flex-wrap space-x-2">
           <p className="flex items-center space-x-2">
             <SlCalender className="text-emerald-500 " size={15} />

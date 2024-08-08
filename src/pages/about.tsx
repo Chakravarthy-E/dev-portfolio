@@ -4,9 +4,9 @@ function About() {
   return (
     <div
       id="about"
-      className="flex items-start justify-center flex-col  w-[600px] font-dosis space-y-7 pb-10"
+      className="flex items-start justify-center flex-col  w-[600px] font-dosis space-y-7 pb-10 min-h-screen"
     >
-      <h1 className="text-3xl font-semibold">About</h1>
+      <h1 className="text-3xl font-semibold text-blue-600">About</h1>
       <div className="space-y-5 font-semibold">
         <p>
           Hi, I&apos;m Chakravarthy, a Full-Stack Developer based in Bangalore.
